@@ -1,0 +1,12 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+}
