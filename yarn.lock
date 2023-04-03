@@ -3040,9 +3040,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"riaxo-devaloper-blog@workspace:.":
+"riaxo-developer-blog@workspace:.":
   version: 0.0.0-use.local
-  resolution: "riaxo-devaloper-blog@workspace:."
+  resolution: "riaxo-developer-blog@workspace:."
   dependencies:
     "@types/node": 18.15.11
     "@types/react": 18.0.31
