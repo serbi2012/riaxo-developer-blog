@@ -3,4 +3,9 @@ const nextConfig = {
   experimental: {},
 };
 
-module.exports = nextConfig;
+const withNextEnv = require("next-env");
+const dotenvLoad = require("dotenv-load");
+
+dotenvLoad();
+
+module.exports = withNextEnv(nextConfig);

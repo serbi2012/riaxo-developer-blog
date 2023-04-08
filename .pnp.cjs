@@ -22,19 +22,1523 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["riaxo-developer-blog", ["workspace:."]]\
     ],\
     "fallbackPool": [\
+      [\
+        "@babel/runtime",\
+        "npm:7.21.0"\
+      ],\
+      [\
+        "@eslint-community/eslint-utils",\
+        "virtual:662100842a01f22e4884c53947ff3c835cfa610bc0302aa718d92c79c197b8d7a4529f512f843ab15d1ae9637360e6549918eab5fe7f0237430b928365312129#npm:4.4.0"\
+      ],\
+      [\
+        "@eslint-community/regexpp",\
+        "npm:4.5.0"\
+      ],\
+      [\
+        "@eslint/eslintrc",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "@eslint/js",\
+        "npm:8.37.0"\
+      ],\
+      [\
+        "@gar/promisify",\
+        "npm:1.1.3"\
+      ],\
+      [\
+        "@humanwhocodes/config-array",\
+        "npm:0.11.8"\
+      ],\
+      [\
+        "@humanwhocodes/module-importer",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "@humanwhocodes/object-schema",\
+        "npm:1.2.1"\
+      ],\
+      [\
+        "@next/env",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/eslint-plugin-next",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-android-arm-eabi",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-android-arm64",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-darwin-arm64",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-darwin-x64",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-freebsd-x64",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-linux-arm-gnueabihf",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-linux-arm64-gnu",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-linux-arm64-musl",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-linux-x64-gnu",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-linux-x64-musl",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-win32-arm64-msvc",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-win32-ia32-msvc",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@next/swc-win32-x64-msvc",\
+        "npm:13.2.4"\
+      ],\
+      [\
+        "@nodelib/fs.scandir",\
+        "npm:2.1.5"\
+      ],\
+      [\
+        "@nodelib/fs.stat",\
+        "npm:2.0.5"\
+      ],\
+      [\
+        "@nodelib/fs.walk",\
+        "npm:1.2.8"\
+      ],\
+      [\
+        "@npmcli/fs",\
+        "npm:2.1.2"\
+      ],\
+      [\
+        "@npmcli/move-file",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "@pkgr/utils",\
+        "npm:2.3.1"\
+      ],\
+      [\
+        "@rushstack/eslint-patch",\
+        "npm:1.2.0"\
+      ],\
+      [\
+        "@swc/helpers",\
+        "npm:0.4.14"\
+      ],\
+      [\
+        "@tootallnate/once",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "@types/json5",\
+        "npm:0.0.29"\
+      ],\
+      [\
+        "@types/mongodb",\
+        "npm:4.0.7"\
+      ],\
+      [\
+        "@types/node",\
+        "npm:18.15.11"\
+      ],\
+      [\
+        "@types/prop-types",\
+        "npm:15.7.5"\
+      ],\
+      [\
+        "@types/react",\
+        "npm:18.0.31"\
+      ],\
+      [\
+        "@types/react-dom",\
+        "npm:18.0.11"\
+      ],\
+      [\
+        "@types/scheduler",\
+        "npm:0.16.3"\
+      ],\
+      [\
+        "@types/webidl-conversions",\
+        "npm:7.0.0"\
+      ],\
+      [\
+        "@types/whatwg-url",\
+        "npm:8.2.2"\
+      ],\
+      [\
+        "@typescript-eslint/parser",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:5.57.0"\
+      ],\
+      [\
+        "@typescript-eslint/scope-manager",\
+        "npm:5.57.0"\
+      ],\
+      [\
+        "@typescript-eslint/types",\
+        "npm:5.57.0"\
+      ],\
+      [\
+        "@typescript-eslint/typescript-estree",\
+        "virtual:0e1cf7e485f1318839f560dfaaa4b144c198634f3013675517c3c52dda2dd5331ecc85e923e2611a549035d894a5c688eb25c9fb17ca0be3f8b744a2e6a0557b#npm:5.57.0"\
+      ],\
+      [\
+        "@typescript-eslint/visitor-keys",\
+        "npm:5.57.0"\
+      ],\
+      [\
+        "abbrev",\
+        "npm:1.1.1"\
+      ],\
+      [\
+        "acorn",\
+        "npm:8.8.2"\
+      ],\
+      [\
+        "acorn-jsx",\
+        "virtual:057dc7b3c1f6024b5a316c7e5d452c8397d903f7ff9736e8d71b89efc60141dc4c8c777c0c1057fa0d3bf0d3dd59eec8694b4efb6f0fb20c747ec060bab7195d#npm:5.3.2"\
+      ],\
+      [\
+        "agent-base",\
+        "npm:6.0.2"\
+      ],\
+      [\
+        "agentkeepalive",\
+        "npm:4.3.0"\
+      ],\
+      [\
+        "aggregate-error",\
+        "npm:3.1.0"\
+      ],\
+      [\
+        "ajv",\
+        "npm:6.12.6"\
+      ],\
+      [\
+        "ansi-regex",\
+        "npm:5.0.1"\
+      ],\
+      [\
+        "ansi-styles",\
+        "npm:4.3.0"\
+      ],\
+      [\
+        "anymatch",\
+        "npm:3.1.3"\
+      ],\
+      [\
+        "aproba",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "are-we-there-yet",\
+        "npm:3.0.1"\
+      ],\
+      [\
+        "argparse",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "aria-query",\
+        "npm:5.1.3"\
+      ],\
+      [\
+        "array-buffer-byte-length",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "array-includes",\
+        "npm:3.1.6"\
+      ],\
+      [\
+        "array-union",\
+        "npm:2.1.0"\
+      ],\
+      [\
+        "array.prototype.flat",\
+        "npm:1.3.1"\
+      ],\
+      [\
+        "array.prototype.flatmap",\
+        "npm:1.3.1"\
+      ],\
+      [\
+        "array.prototype.tosorted",\
+        "npm:1.1.1"\
+      ],\
+      [\
+        "ast-types-flow",\
+        "npm:0.0.7"\
+      ],\
+      [\
+        "asynckit",\
+        "npm:0.4.0"\
+      ],\
+      [\
+        "available-typed-arrays",\
+        "npm:1.0.5"\
+      ],\
+      [\
+        "axe-core",\
+        "npm:4.6.3"\
+      ],\
+      [\
+        "axios",\
+        "npm:1.3.4"\
+      ],\
+      [\
+        "axobject-query",\
+        "npm:3.1.1"\
+      ],\
+      [\
+        "balanced-match",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "binary-extensions",\
+        "npm:2.2.0"\
+      ],\
+      [\
+        "brace-expansion",\
+        "npm:1.1.11"\
+      ],\
+      [\
+        "braces",\
+        "npm:3.0.2"\
+      ],\
+      [\
+        "bson",\
+        "npm:5.2.0"\
+      ],\
+      [\
+        "cacache",\
+        "npm:16.1.3"\
+      ],\
+      [\
+        "call-bind",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "callsites",\
+        "npm:3.1.0"\
+      ],\
+      [\
+        "caniuse-lite",\
+        "npm:1.0.30001472"\
+      ],\
+      [\
+        "chalk",\
+        "npm:4.1.2"\
+      ],\
+      [\
+        "chokidar",\
+        "npm:3.5.3"\
+      ],\
+      [\
+        "chownr",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "clean-stack",\
+        "npm:2.2.0"\
+      ],\
+      [\
+        "client-only",\
+        "npm:0.0.1"\
+      ],\
+      [\
+        "color-convert",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "color-name",\
+        "npm:1.1.4"\
+      ],\
+      [\
+        "color-support",\
+        "npm:1.1.3"\
+      ],\
+      [\
+        "combined-stream",\
+        "npm:1.0.8"\
+      ],\
+      [\
+        "concat-map",\
+        "npm:0.0.1"\
+      ],\
+      [\
+        "console-control-strings",\
+        "npm:1.1.0"\
+      ],\
+      [\
+        "cross-spawn",\
+        "npm:7.0.3"\
+      ],\
+      [\
+        "csstype",\
+        "npm:3.1.1"\
+      ],\
+      [\
+        "damerau-levenshtein",\
+        "npm:1.0.8"\
+      ],\
+      [\
+        "debug",\
+        "virtual:d308674d86394045a3178d86fc0909ad49c0ac9801ba12776e517bdaf3dfe3537e24a9c79fd8f2bd15e4a7d8be7fae6252874fd98e2dbd2728333f46ec685014#npm:4.3.4"\
+      ],\
+      [\
+        "deep-equal",\
+        "npm:2.2.0"\
+      ],\
+      [\
+        "deep-is",\
+        "npm:0.1.4"\
+      ],\
+      [\
+        "define-lazy-prop",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "define-properties",\
+        "npm:1.2.0"\
+      ],\
+      [\
+        "delayed-stream",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "delegates",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "depd",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "dir-glob",\
+        "npm:3.0.1"\
+      ],\
+      [\
+        "doctrine",\
+        "npm:2.1.0"\
+      ],\
+      [\
+        "dotenv",\
+        "npm:16.0.3"\
+      ],\
+      [\
+        "dotenv-expand",\
+        "npm:8.0.3"\
+      ],\
+      [\
+        "dotenv-load",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "emoji-regex",\
+        "npm:9.2.2"\
+      ],\
+      [\
+        "encoding",\
+        "npm:0.1.13"\
+      ],\
+      [\
+        "enhanced-resolve",\
+        "npm:5.12.0"\
+      ],\
+      [\
+        "env-paths",\
+        "npm:2.2.1"\
+      ],\
+      [\
+        "err-code",\
+        "npm:2.0.3"\
+      ],\
+      [\
+        "es-abstract",\
+        "npm:1.21.2"\
+      ],\
+      [\
+        "es-get-iterator",\
+        "npm:1.1.3"\
+      ],\
+      [\
+        "es-set-tostringtag",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "es-shim-unscopables",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "es-to-primitive",\
+        "npm:1.2.1"\
+      ],\
+      [\
+        "escape-string-regexp",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "eslint",\
+        "npm:8.37.0"\
+      ],\
+      [\
+        "eslint-config-next",\
+        "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"\
+      ],\
+      [\
+        "eslint-import-resolver-node",\
+        "npm:0.3.7"\
+      ],\
+      [\
+        "eslint-import-resolver-typescript",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:3.5.3"\
+      ],\
+      [\
+        "eslint-module-utils",\
+        "virtual:5030695d78750734888ae230c0bcd60ee7d3f62d832c040073923500e361a46ad953c92fb20e92be9b339505891087fd90a449e924ded9c6e482ccf77ae6d803#npm:2.7.4"\
+      ],\
+      [\
+        "eslint-plugin-import",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:2.27.5"\
+      ],\
+      [\
+        "eslint-plugin-jsx-a11y",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:6.7.1"\
+      ],\
+      [\
+        "eslint-plugin-react",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:7.32.2"\
+      ],\
+      [\
+        "eslint-plugin-react-hooks",\
+        "virtual:61df5ef06f6f45328322075037e0661047773f32184606b8ff40bfd547979d87fce68df1d8706af3c264c240e02b71e7d3f1a676ec0de208cab7de221e672464#npm:4.6.0"\
+      ],\
+      [\
+        "eslint-scope",\
+        "npm:7.1.1"\
+      ],\
+      [\
+        "eslint-visitor-keys",\
+        "npm:3.4.0"\
+      ],\
+      [\
+        "espree",\
+        "npm:9.5.1"\
+      ],\
+      [\
+        "esquery",\
+        "npm:1.5.0"\
+      ],\
+      [\
+        "esrecurse",\
+        "npm:4.3.0"\
+      ],\
+      [\
+        "estraverse",\
+        "npm:5.3.0"\
+      ],\
+      [\
+        "esutils",\
+        "npm:2.0.3"\
+      ],\
+      [\
+        "fast-deep-equal",\
+        "npm:3.1.3"\
+      ],\
+      [\
+        "fast-glob",\
+        "npm:3.2.12"\
+      ],\
+      [\
+        "fast-json-stable-stringify",\
+        "npm:2.1.0"\
+      ],\
+      [\
+        "fast-levenshtein",\
+        "npm:2.0.6"\
+      ],\
+      [\
+        "fastq",\
+        "npm:1.15.0"\
+      ],\
+      [\
+        "file-entry-cache",\
+        "npm:6.0.1"\
+      ],\
+      [\
+        "fill-range",\
+        "npm:7.0.1"\
+      ],\
+      [\
+        "find-up",\
+        "npm:5.0.0"\
+      ],\
+      [\
+        "flat-cache",\
+        "npm:3.0.4"\
+      ],\
+      [\
+        "flatted",\
+        "npm:3.2.7"\
+      ],\
+      [\
+        "follow-redirects",\
+        "virtual:01ea6851789e289a01b796f810de178bac6d56a5415f6812163a8c36f06eaa64bb9993c92dc00329a5b2f936da5273a082f393404924adfde56b26b8e581ef5e#npm:1.15.2"\
+      ],\
+      [\
+        "for-each",\
+        "npm:0.3.3"\
+      ],\
+      [\
+        "form-data",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "fs-minipass",\
+        "npm:2.1.0"\
+      ],\
+      [\
+        "fs.realpath",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "fsevents",\
+        "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"\
+      ],\
+      [\
+        "function-bind",\
+        "npm:1.1.1"\
+      ],\
+      [\
+        "function.prototype.name",\
+        "npm:1.1.5"\
+      ],\
+      [\
+        "functions-have-names",\
+        "npm:1.2.3"\
+      ],\
+      [\
+        "gauge",\
+        "npm:4.0.4"\
+      ],\
+      [\
+        "get-intrinsic",\
+        "npm:1.2.0"\
+      ],\
+      [\
+        "get-symbol-description",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "get-tsconfig",\
+        "npm:4.5.0"\
+      ],\
+      [\
+        "glob",\
+        "npm:7.2.3"\
+      ],\
+      [\
+        "glob-parent",\
+        "npm:5.1.2"\
+      ],\
+      [\
+        "globals",\
+        "npm:13.20.0"\
+      ],\
+      [\
+        "globalthis",\
+        "npm:1.0.3"\
+      ],\
+      [\
+        "globalyzer",\
+        "npm:0.1.0"\
+      ],\
+      [\
+        "globby",\
+        "npm:11.1.0"\
+      ],\
+      [\
+        "globrex",\
+        "npm:0.1.2"\
+      ],\
+      [\
+        "gopd",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "graceful-fs",\
+        "npm:4.2.11"\
+      ],\
+      [\
+        "grapheme-splitter",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "hamt_plus",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "has",\
+        "npm:1.0.3"\
+      ],\
+      [\
+        "has-bigints",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "has-flag",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "has-property-descriptors",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "has-proto",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "has-symbols",\
+        "npm:1.0.3"\
+      ],\
+      [\
+        "has-tostringtag",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "has-unicode",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "http-cache-semantics",\
+        "npm:4.1.1"\
+      ],\
+      [\
+        "http-proxy-agent",\
+        "npm:5.0.0"\
+      ],\
+      [\
+        "https-proxy-agent",\
+        "npm:5.0.1"\
+      ],\
+      [\
+        "humanize-ms",\
+        "npm:1.2.1"\
+      ],\
+      [\
+        "iconv-lite",\
+        "npm:0.6.3"\
+      ],\
+      [\
+        "ignore",\
+        "npm:5.2.4"\
+      ],\
+      [\
+        "immutable",\
+        "npm:4.3.0"\
+      ],\
+      [\
+        "import-fresh",\
+        "npm:3.3.0"\
+      ],\
+      [\
+        "imurmurhash",\
+        "npm:0.1.4"\
+      ],\
+      [\
+        "indent-string",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "infer-owner",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "inflight",\
+        "npm:1.0.6"\
+      ],\
+      [\
+        "inherits",\
+        "npm:2.0.4"\
+      ],\
+      [\
+        "internal-slot",\
+        "npm:1.0.5"\
+      ],\
+      [\
+        "interpret",\
+        "npm:1.4.0"\
+      ],\
+      [\
+        "ip",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "is-arguments",\
+        "npm:1.1.1"\
+      ],\
+      [\
+        "is-array-buffer",\
+        "npm:3.0.2"\
+      ],\
+      [\
+        "is-bigint",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "is-binary-path",\
+        "npm:2.1.0"\
+      ],\
+      [\
+        "is-boolean-object",\
+        "npm:1.1.2"\
+      ],\
+      [\
+        "is-callable",\
+        "npm:1.2.7"\
+      ],\
+      [\
+        "is-core-module",\
+        "npm:2.11.0"\
+      ],\
+      [\
+        "is-date-object",\
+        "npm:1.0.5"\
+      ],\
+      [\
+        "is-docker",\
+        "npm:2.2.1"\
+      ],\
+      [\
+        "is-extglob",\
+        "npm:2.1.1"\
+      ],\
+      [\
+        "is-fullwidth-code-point",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "is-glob",\
+        "npm:4.0.3"\
+      ],\
+      [\
+        "is-lambda",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "is-map",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "is-negative-zero",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "is-number",\
+        "npm:7.0.0"\
+      ],\
+      [\
+        "is-number-object",\
+        "npm:1.0.7"\
+      ],\
+      [\
+        "is-path-inside",\
+        "npm:3.0.3"\
+      ],\
+      [\
+        "is-regex",\
+        "npm:1.1.4"\
+      ],\
+      [\
+        "is-set",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "is-shared-array-buffer",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "is-string",\
+        "npm:1.0.7"\
+      ],\
+      [\
+        "is-symbol",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "is-typed-array",\
+        "npm:1.1.10"\
+      ],\
+      [\
+        "is-weakmap",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "is-weakref",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "is-weakset",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "is-wsl",\
+        "npm:2.2.0"\
+      ],\
+      [\
+        "isarray",\
+        "npm:2.0.5"\
+      ],\
+      [\
+        "isexe",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "js-sdsl",\
+        "npm:4.4.0"\
+      ],\
+      [\
+        "js-tokens",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "js-yaml",\
+        "npm:4.1.0"\
+      ],\
+      [\
+        "json-schema-traverse",\
+        "npm:0.4.1"\
+      ],\
+      [\
+        "json-stable-stringify-without-jsonify",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "json5",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "jsx-ast-utils",\
+        "npm:3.3.3"\
+      ],\
+      [\
+        "language-subtag-registry",\
+        "npm:0.3.22"\
+      ],\
+      [\
+        "language-tags",\
+        "npm:1.0.5"\
+      ],\
+      [\
+        "levn",\
+        "npm:0.4.1"\
+      ],\
+      [\
+        "locate-path",\
+        "npm:6.0.0"\
+      ],\
+      [\
+        "lodash.merge",\
+        "npm:4.6.2"\
+      ],\
+      [\
+        "loose-envify",\
+        "npm:1.4.0"\
+      ],\
+      [\
+        "lru-cache",\
+        "npm:7.18.3"\
+      ],\
+      [\
+        "make-fetch-happen",\
+        "npm:10.2.1"\
+      ],\
+      [\
+        "memory-pager",\
+        "npm:1.5.0"\
+      ],\
+      [\
+        "merge2",\
+        "npm:1.4.1"\
+      ],\
+      [\
+        "micromatch",\
+        "npm:4.0.5"\
+      ],\
+      [\
+        "mime-db",\
+        "npm:1.52.0"\
+      ],\
+      [\
+        "mime-types",\
+        "npm:2.1.35"\
+      ],\
+      [\
+        "minimatch",\
+        "npm:3.1.2"\
+      ],\
+      [\
+        "minimist",\
+        "npm:1.2.8"\
+      ],\
+      [\
+        "minipass",\
+        "npm:3.3.6"\
+      ],\
+      [\
+        "minipass-collect",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "minipass-fetch",\
+        "npm:2.1.2"\
+      ],\
+      [\
+        "minipass-flush",\
+        "npm:1.0.5"\
+      ],\
+      [\
+        "minipass-pipeline",\
+        "npm:1.2.4"\
+      ],\
+      [\
+        "minipass-sized",\
+        "npm:1.0.3"\
+      ],\
+      [\
+        "minizlib",\
+        "npm:2.1.2"\
+      ],\
+      [\
+        "mkdirp",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "mongodb",\
+        "virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0"\
+      ],\
+      [\
+        "mongodb-connection-string-url",\
+        "npm:2.6.0"\
+      ],\
+      [\
+        "ms",\
+        "npm:2.1.3"\
+      ],\
+      [\
+        "nanoid",\
+        "npm:3.3.6"\
+      ],\
+      [\
+        "natural-compare",\
+        "npm:1.4.0"\
+      ],\
+      [\
+        "negotiator",\
+        "npm:0.6.3"\
+      ],\
+      [\
+        "next",\
+        "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"\
+      ],\
+      [\
+        "next-env",\
+        "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:1.1.1"\
+      ],\
+      [\
+        "node-gyp",\
+        "npm:9.3.1"\
+      ],\
+      [\
+        "nopt",\
+        "npm:6.0.0"\
+      ],\
+      [\
+        "normalize-path",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "npmlog",\
+        "npm:6.0.2"\
+      ],\
+      [\
+        "object-assign",\
+        "npm:4.1.1"\
+      ],\
+      [\
+        "object-inspect",\
+        "npm:1.12.3"\
+      ],\
+      [\
+        "object-is",\
+        "npm:1.1.5"\
+      ],\
+      [\
+        "object-keys",\
+        "npm:1.1.1"\
+      ],\
+      [\
+        "object.assign",\
+        "npm:4.1.4"\
+      ],\
+      [\
+        "object.entries",\
+        "npm:1.1.6"\
+      ],\
+      [\
+        "object.fromentries",\
+        "npm:2.0.6"\
+      ],\
+      [\
+        "object.hasown",\
+        "npm:1.1.2"\
+      ],\
+      [\
+        "object.values",\
+        "npm:1.1.6"\
+      ],\
+      [\
+        "once",\
+        "npm:1.4.0"\
+      ],\
+      [\
+        "open",\
+        "npm:8.4.2"\
+      ],\
+      [\
+        "optionator",\
+        "npm:0.9.1"\
+      ],\
+      [\
+        "p-limit",\
+        "npm:3.1.0"\
+      ],\
+      [\
+        "p-locate",\
+        "npm:5.0.0"\
+      ],\
+      [\
+        "p-map",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "parent-module",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "path-exists",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "path-is-absolute",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "path-key",\
+        "npm:3.1.1"\
+      ],\
+      [\
+        "path-parse",\
+        "npm:1.0.7"\
+      ],\
+      [\
+        "path-type",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "picocolors",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "picomatch",\
+        "npm:2.3.1"\
+      ],\
+      [\
+        "postcss",\
+        "npm:8.4.14"\
+      ],\
+      [\
+        "prelude-ls",\
+        "npm:1.2.1"\
+      ],\
+      [\
+        "promise-inflight",\
+        "virtual:4e2088ed0df52533102f445d7e7aeba6560b7effa0cabbc7cc20dd1e36a86dd838cc541de4414688f4ce3ec77b0ad5298cea6de581350d934ceb35c3e0fe3462#npm:1.0.1"\
+      ],\
+      [\
+        "promise-retry",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "prop-types",\
+        "npm:15.8.1"\
+      ],\
+      [\
+        "proxy-from-env",\
+        "npm:1.1.0"\
+      ],\
+      [\
+        "punycode",\
+        "npm:2.3.0"\
+      ],\
+      [\
+        "queue-microtask",\
+        "npm:1.2.3"\
+      ],\
+      [\
+        "react",\
+        "npm:18.2.0"\
+      ],\
+      [\
+        "react-dom",\
+        "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"\
+      ],\
+      [\
+        "react-is",\
+        "npm:16.13.1"\
+      ],\
+      [\
+        "readable-stream",\
+        "npm:3.6.2"\
+      ],\
+      [\
+        "readdirp",\
+        "npm:3.6.0"\
+      ],\
+      [\
+        "rechoir",\
+        "npm:0.6.2"\
+      ],\
+      [\
+        "recoil",\
+        "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"\
+      ],\
+      [\
+        "regenerator-runtime",\
+        "npm:0.13.11"\
+      ],\
+      [\
+        "regexp.prototype.flags",\
+        "npm:1.4.3"\
+      ],\
+      [\
+        "resolve",\
+        "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"\
+      ],\
+      [\
+        "resolve-from",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "retry",\
+        "npm:0.12.0"\
+      ],\
+      [\
+        "reusify",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "rimraf",\
+        "npm:3.0.2"\
+      ],\
+      [\
+        "run-parallel",\
+        "npm:1.2.0"\
+      ],\
+      [\
+        "safe-buffer",\
+        "npm:5.2.1"\
+      ],\
+      [\
+        "safe-regex-test",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "safer-buffer",\
+        "npm:2.1.2"\
+      ],\
+      [\
+        "saslprep",\
+        "npm:1.0.3"\
+      ],\
+      [\
+        "sass",\
+        "npm:1.60.0"\
+      ],\
+      [\
+        "scheduler",\
+        "npm:0.23.0"\
+      ],\
+      [\
+        "semver",\
+        "npm:7.3.8"\
+      ],\
+      [\
+        "set-blocking",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "shebang-command",\
+        "npm:2.0.0"\
+      ],\
+      [\
+        "shebang-regex",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "shelljs",\
+        "npm:0.8.5"\
+      ],\
+      [\
+        "side-channel",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "signal-exit",\
+        "npm:3.0.7"\
+      ],\
+      [\
+        "slash",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "smart-buffer",\
+        "npm:4.2.0"\
+      ],\
+      [\
+        "socks",\
+        "npm:2.7.1"\
+      ],\
+      [\
+        "socks-proxy-agent",\
+        "npm:7.0.0"\
+      ],\
+      [\
+        "source-map-js",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "sparse-bitfield",\
+        "npm:3.0.3"\
+      ],\
+      [\
+        "ssri",\
+        "npm:9.0.1"\
+      ],\
+      [\
+        "stop-iteration-iterator",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "string-width",\
+        "npm:4.2.3"\
+      ],\
+      [\
+        "string.prototype.matchall",\
+        "npm:4.0.8"\
+      ],\
+      [\
+        "string.prototype.trim",\
+        "npm:1.2.7"\
+      ],\
+      [\
+        "string.prototype.trimend",\
+        "npm:1.0.6"\
+      ],\
+      [\
+        "string.prototype.trimstart",\
+        "npm:1.0.6"\
+      ],\
+      [\
+        "string_decoder",\
+        "npm:1.3.0"\
+      ],\
+      [\
+        "strip-ansi",\
+        "npm:6.0.1"\
+      ],\
+      [\
+        "strip-bom",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "strip-json-comments",\
+        "npm:3.1.1"\
+      ],\
+      [\
+        "styled-jsx",\
+        "virtual:4397e46ce0a87df365f8cbd4b78c99e7409dd7aac861c8e2101525ae536349b1b9b1b4b46cf553d89d3f0d4253e1a1ea9d9b8801828a14b819846eb7b1a1377e#npm:5.1.1"\
+      ],\
+      [\
+        "supports-color",\
+        "npm:7.2.0"\
+      ],\
+      [\
+        "supports-preserve-symlinks-flag",\
+        "npm:1.0.0"\
+      ],\
+      [\
+        "synckit",\
+        "npm:0.8.5"\
+      ],\
+      [\
+        "tapable",\
+        "npm:2.2.1"\
+      ],\
+      [\
+        "tar",\
+        "npm:6.1.13"\
+      ],\
+      [\
+        "text-table",\
+        "npm:0.2.0"\
+      ],\
+      [\
+        "tiny-glob",\
+        "npm:0.2.9"\
+      ],\
+      [\
+        "to-regex-range",\
+        "npm:5.0.1"\
+      ],\
+      [\
+        "tr46",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "tsconfig-paths",\
+        "npm:3.14.2"\
+      ],\
+      [\
+        "tslib",\
+        "npm:2.5.0"\
+      ],\
+      [\
+        "tsutils",\
+        "virtual:f7ee05254b86726bc23b84a69848a75f1356ce500ff6a2fd14c6b8dc31d084b0b8da2c985f47958022b7f2883cfad6ef69c40912f0e70570bb98d4108dacc02e#npm:3.21.0"\
+      ],\
+      [\
+        "type-check",\
+        "npm:0.4.0"\
+      ],\
+      [\
+        "type-fest",\
+        "npm:0.20.2"\
+      ],\
+      [\
+        "typed-array-length",\
+        "npm:1.0.4"\
+      ],\
+      [\
+        "typescript",\
+        "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"\
+      ],\
+      [\
+        "unbox-primitive",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "unique-filename",\
+        "npm:2.0.1"\
+      ],\
+      [\
+        "unique-slug",\
+        "npm:3.0.0"\
+      ],\
+      [\
+        "uri-js",\
+        "npm:4.4.1"\
+      ],\
+      [\
+        "util-deprecate",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "webidl-conversions",\
+        "npm:7.0.0"\
+      ],\
+      [\
+        "whatwg-url",\
+        "npm:11.0.0"\
+      ],\
+      [\
+        "which",\
+        "npm:2.0.2"\
+      ],\
+      [\
+        "which-boxed-primitive",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "which-collection",\
+        "npm:1.0.1"\
+      ],\
+      [\
+        "which-typed-array",\
+        "npm:1.1.9"\
+      ],\
+      [\
+        "wide-align",\
+        "npm:1.1.5"\
+      ],\
+      [\
+        "word-wrap",\
+        "npm:1.2.3"\
+      ],\
+      [\
+        "wrappy",\
+        "npm:1.0.2"\
+      ],\
+      [\
+        "yallist",\
+        "npm:4.0.0"\
+      ],\
+      [\
+        "yocto-queue",\
+        "npm:0.1.0"\
+      ]\
     ],\
     "packageRegistryData": [\
       [null, [\
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/mongodb", "npm:4.0.7"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["axios", "npm:1.3.4"],\
+            ["dotenv-load", "npm:2.0.1"],\
             ["eslint", "npm:8.37.0"],\
             ["eslint-config-next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
+            ["mongodb", "virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0"],\
             ["next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
+            ["next-env", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:1.1.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"],\
             ["recoil", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"],\
@@ -393,6 +1897,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/mongodb", [\
+        ["npm:4.0.7", {\
+          "packageLocation": "./.yarn/cache/@types-mongodb-npm-4.0.7-143cb37ea3-10ebdfed5b.zip/node_modules/@types/mongodb/",\
+          "packageDependencies": [\
+            ["@types/mongodb", "npm:4.0.7"],\
+            ["mongodb", "virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/node", [\
         ["npm:18.15.11", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.15.11-fd8ceaaffd-977b4ad047.zip/node_modules/@types/node/",\
@@ -438,6 +1952,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.3-887bfc0086-2b0aec39c2.zip/node_modules/@types/scheduler/",\
           "packageDependencies": [\
             ["@types/scheduler", "npm:0.16.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/webidl-conversions", [\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-webidl-conversions-npm-7.0.0-0903313151-60142c7ddd.zip/node_modules/@types/webidl-conversions/",\
+          "packageDependencies": [\
+            ["@types/webidl-conversions", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/whatwg-url", [\
+        ["npm:8.2.2", {\
+          "packageLocation": "./.yarn/cache/@types-whatwg-url-npm-8.2.2-54c5c24e6c-5dc5afe078.zip/node_modules/@types/whatwg-url/",\
+          "packageDependencies": [\
+            ["@types/whatwg-url", "npm:8.2.2"],\
+            ["@types/node", "npm:18.15.11"],\
+            ["@types/webidl-conversions", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -866,6 +2400,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["bson", [\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-5.2.0-046a4ac35e-1297f8776a.zip/node_modules/bson/",\
+          "packageDependencies": [\
+            ["bson", "npm:5.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cacache", [\
         ["npm:16.1.3", {\
           "packageLocation": "./.yarn/cache/cacache-npm-16.1.3-4e2088ed0d-d91409e6e5.zip/node_modules/cacache/",\
@@ -1213,6 +2756,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["doctrine", "npm:3.0.0"],\
             ["esutils", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-expand", [\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-expand-npm-8.0.3-3f30d1947a-128ce90ac8.zip/node_modules/dotenv-expand/",\
+          "packageDependencies": [\
+            ["dotenv-expand", "npm:8.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-load", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-load-npm-2.0.1-4da3c41c7c-729562f15a.zip/node_modules/dotenv-load/",\
+          "packageDependencies": [\
+            ["dotenv-load", "npm:2.0.1"],\
+            ["dotenv", "npm:16.0.3"],\
+            ["dotenv-expand", "npm:8.0.3"],\
+            ["shelljs", "npm:0.8.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2382,6 +3955,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["interpret", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/interpret-npm-1.4.0-17b4b5b0a4-2e5f51268b.zip/node_modules/interpret/",\
+          "packageDependencies": [\
+            ["interpret", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ip", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/ip-npm-2.0.0-204facb3cc-cfcfac6b87.zip/node_modules/ip/",\
@@ -2856,6 +4438,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["memory-pager", [\
+        ["npm:1.5.0", {\
+          "packageLocation": "./.yarn/cache/memory-pager-npm-1.5.0-46e20e6c81-d1a2e68458.zip/node_modules/memory-pager/",\
+          "packageDependencies": [\
+            ["memory-pager", "npm:1.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge2", [\
         ["npm:1.4.1", {\
           "packageLocation": "./.yarn/cache/merge2-npm-1.4.1-a2507bd06c-7268db63ed.zip/node_modules/merge2/",\
@@ -3012,6 +4603,51 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mongodb", [\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-5.2.0-932537c824-2114175fab.zip/node_modules/mongodb/",\
+          "packageDependencies": [\
+            ["mongodb", "npm:5.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-992bb6bb28/0/cache/mongodb-npm-5.2.0-932537c824-2114175fab.zip/node_modules/mongodb/",\
+          "packageDependencies": [\
+            ["mongodb", "virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0"],\
+            ["@aws-sdk/credential-providers", null],\
+            ["@types/aws-sdk__credential-providers", null],\
+            ["@types/mongodb-client-encryption", null],\
+            ["@types/snappy", null],\
+            ["bson", "npm:5.2.0"],\
+            ["mongodb-client-encryption", null],\
+            ["mongodb-connection-string-url", "npm:2.6.0"],\
+            ["saslprep", "npm:1.0.3"],\
+            ["snappy", null],\
+            ["socks", "npm:2.7.1"]\
+          ],\
+          "packagePeers": [\
+            "@aws-sdk/credential-providers",\
+            "@types/aws-sdk__credential-providers",\
+            "@types/mongodb-client-encryption",\
+            "@types/snappy",\
+            "mongodb-client-encryption",\
+            "snappy"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mongodb-connection-string-url", [\
+        ["npm:2.6.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-connection-string-url-npm-2.6.0-af011ba17f-1d662f0ecf.zip/node_modules/mongodb-connection-string-url/",\
+          "packageDependencies": [\
+            ["mongodb-connection-string-url", "npm:2.6.0"],\
+            ["@types/whatwg-url", "npm:8.2.2"],\
+            ["whatwg-url", "npm:11.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ms", [\
         ["npm:2.1.2", {\
           "packageLocation": "./.yarn/cache/ms-npm-2.1.2-ec0c1512ff-673cdb2c31.zip/node_modules/ms/",\
@@ -3111,6 +4747,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "react-dom",\
             "react",\
             "sass"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["next-env", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/next-env-npm-1.1.1-1d6a30cfcd-08ebcd18e0.zip/node_modules/next-env/",\
+          "packageDependencies": [\
+            ["next-env", "npm:1.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:1.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/next-env-virtual-1d4f7bc56c/0/cache/next-env-npm-1.1.1-1d6a30cfcd-08ebcd18e0.zip/node_modules/next-env/",\
+          "packageDependencies": [\
+            ["next-env", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:1.1.1"],\
+            ["@types/next", null],\
+            ["next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/next",\
+            "next"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3562,6 +5220,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["rechoir", [\
+        ["npm:0.6.2", {\
+          "packageLocation": "./.yarn/cache/rechoir-npm-0.6.2-0df5f171ec-fe76bf9c21.zip/node_modules/rechoir/",\
+          "packageDependencies": [\
+            ["rechoir", "npm:0.6.2"],\
+            ["resolve", "patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["recoil", [\
         ["npm:0.7.7", {\
           "packageLocation": "./.yarn/cache/recoil-npm-0.7.7-4452f58b67-65edecbcb8.zip/node_modules/recoil/",\
@@ -3625,6 +5293,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-f4c4056507-66cc788f13.zip/node_modules/resolve/",\
+          "packageDependencies": [\
+            ["resolve", "patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d"],\
+            ["is-core-module", "npm:2.11.0"],\
+            ["path-parse", "npm:1.0.7"],\
+            ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d", {\
           "packageLocation": "./.yarn/cache/resolve-patch-34cda421ec-4bf9f4f8a4.zip/node_modules/resolve/",\
           "packageDependencies": [\
@@ -3668,13 +5346,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["riaxo-developer-blog", "workspace:."],\
+            ["@types/mongodb", "npm:4.0.7"],\
             ["@types/node", "npm:18.15.11"],\
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["axios", "npm:1.3.4"],\
+            ["dotenv-load", "npm:2.0.1"],\
             ["eslint", "npm:8.37.0"],\
             ["eslint-config-next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
+            ["mongodb", "virtual:143cb37ea32662ebfb240307415905dbcdcd555f1c505de0dab16d35aaf251aab27e5518932e28a42c2eed7cfbce1f138ceab7498b5f2cb2b53fb620dc732eb1#npm:5.2.0"],\
             ["next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
+            ["next-env", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:1.1.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"],\
             ["recoil", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"],\
@@ -3730,6 +5412,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safer-buffer-npm-2.1.2-8d5c0b705e-cab8f25ae6.zip/node_modules/safer-buffer/",\
           "packageDependencies": [\
             ["safer-buffer", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["saslprep", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/saslprep-npm-1.0.3-8db649c346-4fdc0b70fb.zip/node_modules/saslprep/",\
+          "packageDependencies": [\
+            ["saslprep", "npm:1.0.3"],\
+            ["sparse-bitfield", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3797,6 +5489,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/shebang-regex-npm-3.0.0-899a0cd65e-1a2bcae50d.zip/node_modules/shebang-regex/",\
           "packageDependencies": [\
             ["shebang-regex", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["shelljs", [\
+        ["npm:0.8.5", {\
+          "packageLocation": "./.yarn/cache/shelljs-npm-0.8.5-44be43f84a-7babc46f73.zip/node_modules/shelljs/",\
+          "packageDependencies": [\
+            ["shelljs", "npm:0.8.5"],\
+            ["glob", "npm:7.2.3"],\
+            ["interpret", "npm:1.4.0"],\
+            ["rechoir", "npm:0.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3875,6 +5579,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.2-ee4f9f9b30-c049a7fc4d.zip/node_modules/source-map-js/",\
           "packageDependencies": [\
             ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sparse-bitfield", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/cache/sparse-bitfield-npm-3.0.3-cb80d0c89f-174da88dbb.zip/node_modules/sparse-bitfield/",\
+          "packageDependencies": [\
+            ["sparse-bitfield", "npm:3.0.3"],\
+            ["memory-pager", "npm:1.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4117,6 +5831,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["tr46", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/tr46-npm-3.0.0-e1ae1ea7c9-44c3cc6767.zip/node_modules/tr46/",\
+          "packageDependencies": [\
+            ["tr46", "npm:3.0.0"],\
+            ["punycode", "npm:2.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tsconfig-paths", [\
         ["npm:3.14.2", {\
           "packageLocation": "./.yarn/cache/tsconfig-paths-npm-3.14.2-90ce75420d-a6162eaa1a.zip/node_modules/tsconfig-paths/",\
@@ -4257,6 +5981,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",\
           "packageDependencies": [\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["webidl-conversions", [\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/webidl-conversions-npm-7.0.0-e8c8e30c68-f05588567a.zip/node_modules/webidl-conversions/",\
+          "packageDependencies": [\
+            ["webidl-conversions", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["whatwg-url", [\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/whatwg-url-npm-11.0.0-073529d93a-ed4826aaa5.zip/node_modules/whatwg-url/",\
+          "packageDependencies": [\
+            ["whatwg-url", "npm:11.0.0"],\
+            ["tr46", "npm:3.0.0"],\
+            ["webidl-conversions", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
