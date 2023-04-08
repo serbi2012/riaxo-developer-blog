@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"],\
+            ["recoil", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"],\
             ["sass", "npm:1.60.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"]\
           ],\
@@ -2157,6 +2158,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["hamt_plus", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/hamt_plus-npm-1.0.2-67a52ee1df-af26ea32db.zip/node_modules/hamt_plus/",\
+          "packageDependencies": [\
+            ["hamt_plus", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["has", [\
         ["npm:1.0.3", {\
           "packageLocation": "./.yarn/cache/has-npm-1.0.3-b7f00631c1-b9ad53d53b.zip/node_modules/has/",\
@@ -3552,6 +3562,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["recoil", [\
+        ["npm:0.7.7", {\
+          "packageLocation": "./.yarn/cache/recoil-npm-0.7.7-4452f58b67-65edecbcb8.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "npm:0.7.7"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7", {\
+          "packageLocation": "./.yarn/__virtual__/recoil-virtual-e93ba49f41/0/cache/recoil-npm-0.7.7-4452f58b67-65edecbcb8.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"],\
+            ["@types/react", "npm:18.0.31"],\
+            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-native", null],\
+            ["hamt_plus", "npm:1.0.2"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"],\
+            ["react-native", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react-native",\
+            "@types/react",\
+            "react-dom",\
+            "react-native",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["regenerator-runtime", [\
         ["npm:0.13.11", {\
           "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.11-90bf536060-27481628d2.zip/node_modules/regenerator-runtime/",\
@@ -3636,6 +3677,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:13.2.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:18.2.0"],\
+            ["recoil", "virtual:eac1f17af8186822b669233f64a52cdd247e0138fe32e2d87304a32bbbb799729348d75ec8d16a37846dd873ecd0f6d2d53954a437e489be81552234a3af17e3#npm:0.7.7"],\
             ["sass", "npm:1.60.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"]\
           ],\

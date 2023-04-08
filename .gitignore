@@ -1,6 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# zero install
 .yarn/*
 !.yarn/cache
 !.yarn/patches
@@ -8,9 +11,7 @@
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-/node_modules
-/.pnp
-.pnp.js
+!.yarn/unplugged
 
 # testing
 /coverage
